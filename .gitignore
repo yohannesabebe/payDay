@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Env files (never commit secrets)
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+artifacts/
+cache/
+typechain-types/
+
+# Local runtime data
+data/
+agent/data/
+*.db
+*.sqlite
+
+# Logs & OS
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db

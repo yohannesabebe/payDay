@@ -1,0 +1,15 @@
+{
+  "name": "payday-aevum",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PayDay: Autonomous Yield-Generating Payroll & Confirmation of Payee on QDay Aevum Testnet",
+  "scripts": {
+    "contracts:compile": "npm --prefix contracts run compile",
+    "contracts:test": "npm --prefix contracts test",
+    "contracts:deploy:testnet": "npm --prefix contracts run deploy:testnet",
+    "agent:dev": "npm --prefix agent run dev",
+    "agent:build": "npm --prefix agent run build",
+    "frontend:dev": "npm --prefix frontend run dev",
+    "frontend:build": "npm --prefix frontend run build"
+  }
+}
